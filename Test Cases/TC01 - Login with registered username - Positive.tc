@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 - Login with registered username - Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf87f9d1-06e8-423c-9492-9360d55eaed7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>489cddbc-bb70-4553-8fd8-9546688f9cfa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bob@example.com'</defaultValue>
+      <description></description>
+      <id>489cddbc-bb70-4553-8fd8-9546688f9cfa</id>
+      <masked>false</masked>
+      <name>usernames</name>
+   </variable>
+</TestCaseEntity>

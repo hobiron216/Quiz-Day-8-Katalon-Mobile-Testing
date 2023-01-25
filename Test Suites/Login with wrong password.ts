@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login with wrong password</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3af34c13-7cf3-4a56-aed1-e94c6c214caf</testSuiteGuid>
+   <testCaseLink>
+      <guid>b8d1cb45-5d1f-4409-bb47-b32b74f3261e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'10203040\r\n'</defaultValue>
+         <description></description>
+         <id>13f7edc4-583e-4a8b-a95e-5b20b8720281</id>
+         <masked>false</masked>
+         <name>password</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC02 - Login with wrong password - Negative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e6bc7d2e-4623-4c14-b090-4b5bf17a4888</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/password</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e6bc7d2e-4623-4c14-b090-4b5bf17a4888</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>13f7edc4-583e-4a8b-a95e-5b20b8720281</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a9c813d-ff16-47fe-8855-10f9f72939a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
